@@ -43,4 +43,7 @@ Next i hooked up my trusty cp2102 usb to uart converter to my pc and the devices
 Putty output is also posted but i removed all mentions of my password and wifi ssid so i dont dox myself and replaced them with YOURSSID and YOURPASSWD.
 
 
+![IMG20240405214435](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/345a1de1-40bb-4e51-a02e-4654b57aad76)
+Reading the firmware of the device via a ch341 connected via an soic8 clip to the board. I could not find a working reset so i just shorted the 1.8v line to gnd which actually disabled the mips core from interfering with the firmware reading. After reading i verified the firmware image and now i have a .bin file. I actually did reset the camera to factory before i dumped it so no mentions of my wifi network wuld be included because again i dont want to dox myself. 
+
 
