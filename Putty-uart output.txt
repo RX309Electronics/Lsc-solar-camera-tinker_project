@@ -1,0 +1,728 @@
+Ver:20220425-T31ZC
+vol=>60
+curr pir sens:2
+curr dev volume:8
+spk_vol:45
+func switch 0x4
+[tuya] white light 1  white light:1
+low_power_value:10
+[tuya] low_power_value 10
+reconnect times:0;
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][cadc_open][41] adc open success.
+adc:174
+chn[0] 264
+chn[1] 264
+chn->0,r:1.000000, b=1152
+chn->1,r:1.000000, b=480
+INFO(jzdl): jzdl version:1.4.0(00010400_4e61bfb)  built:20230907-1222(4.7.2 c)
+[-][ INFO][hal_init_slip][854] chn 0 set horizontal and vertical flip.
+INFO(persondet): Ingenic DL PersonDet Promotion Version:0.0.3(00000003_111fcc8)  built:20231102-2000(4.7.2 simd)
+param frameWidth: 640 frameHeight: 360  sense: -1 score: 0.400000 detdist: 1 ptime: 1 count: 0 mod: 1 enable_perm: 0 enable_move: 0 track_mode: 0 observation_period: 0 active_count: 0 move_scale: 1.000000
+warn: shm_init,53shm init already
+[-][ INFO][hal_ai_start][328] ai start success.
+warn: shm_init,53shm init already
+rtc_cnt=5
+[-][ INFO][__uart_rev_process][920] battery:a b8 = 2744, fxg:d7, rtc:19,t:9765
+AA hwinfo.battery=78
+cur adc 2744.000000
+[__sensor_process] line:1842
+[-][ INFO][system][243] echo 59 > /sys/class/gpio/export, ret: 0, target: 127.0.0.1:50795
+[frame_pooling_thread--419 Channel:1 ]:1088(ms)
+[IMP_Encoder_GetStream_Impl--2558 Channel:1 ]:1091(ms)
+[-][ INFO][system][243] echo out > /sys/class/gpio/gpio59/direction, ret: 0, target: 127.0.0.1:36098
+[-][ INFO][hal_ao_start][288] ao start success.
+[-][ INFO][mdevinfo_set_timezone][337] set timezone [8][CST-08:00]
+aac_len=2
+15 88
+Init aac encoder success :AAC max_out_buffer_len[768], input_pcm_frame_len[2048]
+[-][ INFO][__uart_rev_process][920] battery:a ac = 2732, fxg:c3, rtc:19,t:9765
+AA hwinfo.battery=78
+cur adc 2732.000000
+>power on<
+audio_ready=1, cnt=0
+[-][ INFO][maudio_change_mode][217] change audio mode -1->0.
+[-][ INFO][__uart_rev_process][920] battery:a ac = 2732, fxg:c3, rtc:7e,t:9765
+AA hwinfo.battery=78
+cur adc 2732.000000
+[-][ INFO][_speak_process][74] start play audio:/system/voice/power_on(1).
+[-][ INFO][hal_ao_set_volume][440] set volume 45
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:377 pir，红灯亮1秒
+[-][ INFO][__uart_rev_process][920] battery:a ac = 2732, fxg:c3, rtc:7e,t:9765
+AA hwinfo.battery=78
+cur adc 2732.000000
+===value:158.[night<200, day>250]
+[-][ INFO][sample_change_daynight][2027] turn night mode.
+person_detect_switch = 1
+[frame_pooling_thread--419 Channel:0 ]:1555(ms)
+[IMP_Encoder_GetStream_Impl--2558 Channel:0 ]:1571(ms)
+_person_detect_handle 741 w=640 h360
+[-][ INFO][zrt_wifi_set_sleep][3058] set wlc hostsleep 0
+[-][ INFO][zrt_wifi_set_pm_mode][3102] wlc pm 0
+[-][ INFO][zrt_wifi_set_deepsleep][3066] set wlc deepsleep 0
+[-][ INFO][bcmwlan_get_wakeup_flag][2071] wlc wowl_wakeind 0
+[-][ INFO][bcmwlan_get_wakeup_flag][2073] wlc wowl_wakeind clear
+[-][ INFO][bcmwlan_get_wakeup_flag][2071] wlc wowl_wakeind 0
+[-][ INFO][bcmwlan_get_wakeup_flag][2073] wlc wowl_wakeind clear
+[-][ INFO][ZRT_CAM_Show_Wakeup_Source][1164] wifi wakeup flag: 0
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][mnet_init][1275] wifi config ready, get config.
+[-][ INFO][set_wifi_status][90] WIFI_CONNECTING
+[-][ INFO][wlc_checkstatus][1004] x
+[-][ INFO][set_wifi_status][90] WIFI_CONNECTING
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+insmod: can't read '/lib/modules/ntfs.ko': No such file or directory
+Setting up swapspace version 1, size = 16773120 bytes
+UUID=b027044f-085c-4085-b0a0-4c3b0a398790
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:384 pir，红灯灭，蓝灯亮1
+[-][ INFO][__uart_rev_process][920] battery:a ad = 2733, fxg:c2, rtc:7e,t:9765
+AA hwinfo.battery=78
+cur adc 2733.000000
+adc_val_avg 2732, max 2744,min 2732
+hwinfo.battery=78, battery=72
+[-][ INFO][adc_2_percent][497] bat_adc_dg4=72
+count: 0
+person detect time: 823ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][hal_gpio_cut_readlight][139] cut flag:1
+count: 0
+person detect time: 464ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Fast_Connect][698] ssid= mac:00:31:92:28:08:46 channel=4, signal=-74
+[-][ INFO][wifi_join_ap][2690] wifi(1) join ap ssid:YOURSSID pwd:YOURPASSWD auth:00400004
+[-][ INFO][wlc_wowl_status][1741] status of wakeup: 0x0
+[-][ INFO][bcmwlan_join_ap_specific][1571] start join YOURSSID.
+[-][ INFO][bcmwlan_join_ap_specific][1593] try scan and join ap: YOURSSID
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:384 pir，红灯灭，蓝灯亮2
+count: 0
+person detect time: 468ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 830ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2728.000000
+[-][ INFO][bcmwlan_join_ap_specific][1601] end join YOURSSID success.
+[-][ INFO][wlc_checkstatus][1004] x
+count: 0
+person detect time: 546ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 405ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+[-][ INFO][wlc_checkstatus][1004] x
+count: 0
+person detect time: 418ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+===value:159.[night<200, day>250]
+count: 0
+person detect time: 409ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 401ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][wlc_checkstatus][997] o 00:31:92:28:08:46
+count: 0
+person detect time: 473ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+count: 0
+person detect time: 410ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][_speak_process][145] speak process exit
+count: 0
+person detect time: 401ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 401ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 419ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+===value:158.[night<200, day>250]
+count: 0
+person detect time: 403ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+count: 0
+person detect time: 684ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+
+Zeratul login: count: 0
+person detect time: 405ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 414ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 395ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+count: 0
+person detect time: 407ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 418ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+===value:158.[night<200, day>250]
+count: 0
+person detect time: 402ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 398ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 400ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+count: 0
+person detect time: 397ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 393ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+count: 0
+person detect time: 403ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 411ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+===value:159.[night<200, day>250]
+count: 0
+person detect time: 395ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+>pir evt<
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+count: 0
+person detect time: 417ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 401ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:0
+[-][ INFO][__uart_rev_process][920] battery:a a9 = 2729, fxg:c6, rtc:7e,t:9765
+AA hwinfo.battery=72
+cur adc 2729.000000
+count: 0
+person detect time: 405ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 432ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 409ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:0 delay:0
+count: 0
+person detect time: 409ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 426ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][wlc_dhcpc_config_cyw][2341] ip:192.168.68.141 mask:255.255.255.0 gateway:192.168.68.1 dns:213.46.228.196 leasetime:7200
+===value:157.[night<200, day>250]
+[-][ INFO][wlc_get_host_mac][1031] 00:31:92:28:08:46
+[-][ INFO][get_local_mac][93] a8:41:f4:8a:21:b1
+[-][ INFO][set_if_addr][114] set addr if:wlan0 ip:192.168.68.141 mask:255.255.255.0 gateway:192.168.68.1
+[-][ INFO][set_dns_addr][195] set dns server: 213.46.228.196
+[-][ INFO][wifi_get_dhcpc][2611]    ip:192.168.68.141
+[-][ INFO][wifi_get_dhcpc][2612]  mask:255.255.255.0
+[-][ INFO][wifi_get_dhcpc][2613]    gw:192.168.68.1
+[-][ INFO][wifi_get_dhcpc][2614]   dns:213.46.228.196
+[-][ INFO][wifi_get_dhcpc][2615] lease_time:7200
+[-][ INFO][wifi_join_ap][2795] connect success
+[-][ INFO][wlc_checkstatus][997] o 00:31:92:28:08:46
+[-][ INFO][set_wifi_status][96] WIFI_CONNECTED
+Building Time: Jan 21 2024: 18:21:09 Version:4.0.120
+set siren_on_off:0
+警笛声 [tuya_siren_switch] line:816  on_off:0-0
+[-][ INFO][system][243] sync, ret: 0, target: 127.0.0.1:37339
+Dbg:SDK Version:<TUYA IPC SDK V:4.8.8 >
+< TUYA IOT SDK V:4.1.1 BS:30.01_PT:2.2_LAN:3.3_CAD:1.0.1_CD:1.0.0 >
+IPC DEFS < ENABLE_ECHO_SHOW:0 ENABLE_CHROMECAST:0 ENABLE_CLOUD_STORAGE:1 >'
+< BUILD AT:2020_12_14_18_04_47 BY chenjing FOR linux_wifi_lp_fs AT mips-gcc472-uclibc216-32bit-r2.3.3 >
+
+
+dat: pid=oogvcpkcli81w5fp; uuid=ybgda973a2accaefab55; authkey=GELA8OAWPWoeOZxlfXAAxroik1yFzcn8; status=valid
+curr event:0
+[01-01 18:12:15-- TUYA Debug][tuya_iot_com_api.c:94] init fs. Path: /config/tuya/
+[01-01 18:12:15-- TUYA Info][kv_storge.c:43] Init Kvs With File:/config/tuya/
+[01-01 18:12:15-- TUYA Debug][simplekv.c:916] path:/config/tuya/
+[01-01 18:12:15-- TUYA Debug][simplekv.c:952] get encrypt_key[▒▒▒US▒▒▒▒ykR▒▒]
+[01-01 18:12:15-- TUYA Debug][simplekv.c:983] both file exist
+[01-01 18:12:15-- TUYA Debug][simplekv.c:280] size in: 0 and final: 28700 And mag_rec_max: 512
+[01-01 18:12:15-- TUYA Debug][simplekv.c:295] create data hd success
+[01-01 18:12:15-- TUYA Debug][simplekv.c:1026] read from normal file
+[01-01 18:12:15-- TUYA Debug][simplekv.c:736] curr db is V2. No need to upgrade
+[01-01 18:12:15-- TUYA Debug][simplekv.c:526] head check success
+[01-01 18:12:15-- TUYA Debug][simplekv.c:629] read and check head success
+[01-01 18:12:15-- TUYA Debug][simplekv.c:1041] read from normal file success
+[01-01 18:12:15-- TUYA Debug][uni_thread.c:161] Init Thread Del Mgr
+[01-01 18:12:15-- TUYA Debug][simplekv.c:1079] init from normal file success.
+[01-01 18:12:15-- TUYA Debug][sys_timer.c:63] system timer has been inited
+[01-01 18:12:15-- TUYA Debug][sys_timer.c:63] system timer has been inited
+[01-01 18:12:15-- TUYA Debug][sys_timer.c:63] system timer has been inited
+[01-01 18:12:15-- TUYA Debug][online_log_serv.c:340] read from uf. max:0 first:0 last:0
+[01-01 18:12:15-- TUYA Debug][online_log_serv.c:581] log serv init success
+[01-01 18:12:15-- TUYA Debug][ty_work_queue.c:22] init work queue. stack size:2560 pro:3 num:2
+[01-01 18:12:15-- TUYA Debug][ty_work_queue.c:27] ty work queue create success
+[tuya][2023-11-24 19:26:42]utc:1700825202
+tyReady:0 Set Country Code:CN
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_tuya_server_app_alarm_process] line:92 [tuya] [2023-11-24 19:26:42]  utc time:1700825202
+pir_level=1a
+curr event:3
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+have config net.
+dat:pid=oogvcpkcli81w5fp;uid=ybgda973a2accaefab55;key=GELA8OAWPWoeOZxlfXAAxroik1yFzcn8;
+[11-24 12:26:42-- TUYA Err][tuya_ipc_cloud_storage.c:297] iot_wd_common_read fails md5_encrypt_key -901
+[11-24 12:26:42-- TUYA Err][tuya_ipc_cloud_storage.c:382] read key_key file failed.
+
+macaddr:A8:41:F4:8A:21:B1
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:403 红蓝灯同时闪烁:1 delay:10
+[-][ INFO][__uart_rev_process][905] mcu ver 4.0.44 test==>8,t00
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:08,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+store dns info to position 7 for a2.tuyaeu.com 0x239d6512
+store dns info to position 6 for m2.tuyaeu.com 0x239c2cac
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:08,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+[-][ERROR][muart_get_key][202] open key.cfg error!
+func switch 0x2006
+[-][ INFO][main][605] Date:Jan 21 2024. Time:18:17:01. Hash:
+count: 0
+person detect time: 1024ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+Dbg:Net status change to:11
+curr event:4
+Dbg:mqtt is online
+
+create /config/common/reconnect_info.cfg successful!
+Dbg:Init P2P With Max Users:5
+P2P API Version: 244.3.3.1
+tuya p2p rtc sdk version: 0xf4030301, Nov 20 2020 16:43:47
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[_led_process] line:417 红蓝灯同时灭:0, pir_cnt=3
+[04-05 22:04:19-- TUYA Err][cloud_operation.c:731] errorCode:CAMERA_STORAGE_ORDER_NOT_EXISTED
+>>> CloudStorage mode:2 ret:0
+[TUYA_APP_Init_Stream_Storage] line:348  preret:0!
+[04-05 22:04:19-- TUYA Err][tuya_ipc_stream_storage.c:1509] storage not inited
+[04-05 22:04:19-- TUYA Err][tuya_ipc_p2p.c:4762] p2p v3 init ok
+mqtt p2p LISTEN session........
+19688 INFO  src/tuya_rtc.c:5526: try listen
+Dbg:Get Server Time now, ret:0
+Dbg:Get Server Time Success: 1712347459 3600(0)
+time zone:1 ->2
+[-][ INFO][mdevinfo_set_timezone][337] set timezone [2][CST-02:00]
+## Sync Utc Time:0
+sleep_mode:0
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:511] devid:(null) dparr[0]:105 not find
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:660] dp composition fail.ret:-944
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:511] devid:(null) dparr[0]:107 not find
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:660] dp composition fail.ret:-944
+log_lxh_dbg04
+curr sd_status:5
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:511] devid:(null) dparr[0]:150 not find
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:660] dp composition fail.ret:-944
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:511] devid:(null) dparr[0]:151 not find
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:660] dp composition fail.ret:-944
+curr blub_on_off:0
+curr dev volume:8
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:511] devid:(null) dparr[0]:160 not find
+[04-05 22:04:19-- TUYA Err][tuya_iot_com_api.c:660] dp composition fail.ret:-944
+[-][ INFO][wlc_checkstatus][997] o 00:31:92:28:08:46
+curr pir sens:2
+current power mode:0
+TUYA Enable AI Detect...
+count: 0
+person detect time: 18446744072568352ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+[04-05 22:04:21-- TUYA Err][tuya_ipc_ai_detect_storage.c:419] errorCode:ORDER_NOT_EXISTED
+[04-05 22:04:21-- TUYA Err][tuya_ipc_ai_detect_storage.c:1533] update cloud storage config fail
+create ai proc now......
+===value:158.[night<200, day>250]
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+count: 0
+person detect time: 1091ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 753ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-1 record:0 bell:0(0) pir:1(1) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:9, online=0
+Dbg:Get Server Time now, ret:0
+Dbg:Get Server Time Success: 1712347462 3600(0)
+time zone:1 ->2
+[-][ INFO][mdevinfo_set_timezone][337] set timezone [2][CST-02:00]
+tuya_sync_utc_time ok :0
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+##ht tuya sd record mode event.
+set sd_record_mode:0
+[04-05 22:04:22-- TUYA Err][tuya_ipc_stream_storage.c:1509] storage not inited
+[-][ INFO][system][243] sync, ret: 0, target: 127.0.0.1:54064
+count: 0
+person detect time: 1361ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-2 record:0 bell:0(0) pir:1(2) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:8, online=0
+count: 0
+person detect time: 489ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][wlc_dhcpc_config_cyw][2341] ip:192.168.68.141 mask:255.255.255.0 gateway:192.168.68.1 dns:213.46.228.196 leasetime:7200
+[-][ INFO][wlc_get_host_mac][1031] 00:31:92:28:08:46
+[-][ INFO][get_local_mac][93] a8:41:f4:8a:21:b1
+[-][ INFO][mnet_get_cur_net_info][653]      ip: 192.168.68.141
+[-][ INFO][mnet_get_cur_net_info][654]    mask: 255.255.255.0
+[-][ INFO][mnet_get_cur_net_info][655] gateway: 192.168.68.1
+[-][ INFO][mnet_get_cur_net_info][656]     dns: 213.46.228.196
+WIFI[0] Get IP:192.168.68.141
+Dbg:Net status change to:7
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+count: 0
+person detect time: 512ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-3 record:0 bell:0(0) pir:1(3) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:7, online=0
+count: 0
+person detect time: 511ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+===value:159.[night<200, day>250]
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 511ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][set_wifi_status][96] WIFI_CONNECTED
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-4 record:0 bell:0(0) pir:1(4) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:6, online=0
+count: 0
+person detect time: 482ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+count: 0
+person detect time: 490ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-5 record:0 bell:0(0) pir:1(5) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:5, online=0
+count: 0
+person detect time: 508ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7c,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 517ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-6 record:0 bell:0(0) pir:1(6) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:4, online=0
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+count: 0
+person detect time: 494ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+===value:159.[night<200, day>250]
+count: 0
+person detect time: 493ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-6 record:0 bell:0(0) pir:1(7) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:3, online=0
+[-][ INFO][wlc_dhcpc_config_cyw][2341] ip:192.168.68.141 mask:255.255.255.0 gateway:192.168.68.1 dns:213.46.228.196 leasetime:7200
+[-][ INFO][wlc_get_host_mac][1031] 00:31:92:28:08:46
+[-][ INFO][get_local_mac][93] a8:41:f4:8a:21:b1
+[-][ INFO][mnet_get_cur_net_info][653]      ip: 192.168.68.141
+[-][ INFO][mnet_get_cur_net_info][654]    mask: 255.255.255.0
+[-][ INFO][mnet_get_cur_net_info][655] gateway: 192.168.68.1
+[-][ INFO][mnet_get_cur_net_info][656]     dns: 213.46.228.196
+WIFI[0] Get IP:192.168.68.141
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+count: 0
+person detect time: 556ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+count: 0
+person detect time: 661ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-6 record:0 bell:0(0) pir:1(8) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:2, online=0
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+count: 0
+person detect time: 519ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-6 record:0 bell:0(0) pir:1(9) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:1, online=0
+count: 0
+person detect time: 483ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[-][ INFO][ZRT_WIFI_Get_Config][428] get ssid:YOURSSID pwd:YOURPASSWD
+[-][ INFO][__uart_rev_process][920] battery:a a8 = 2728, fxg:c7, rtc:7e,t:84
+AA hwinfo.battery=72
+cur adc 2728.000000
+===value:157.[night<200, day>250]
+count: 0
+person detect time: 561ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya] charge status change:-1 => 4  battery change:-1 => 72
+sound:0(0) client:0-6 record:0 bell:0(0) pir:0(0) hum:0(0) wifiset:0(0) wakeup:0(0) update:0 alarm:0(0) online:1 sdk:0 free:0 bat:72 charge:4 voltage:0 streamcnt:0 delayCount:0, online=0
+count: 0
+person detect time: 517ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[_led_process] line:342 suspending
+adc check process exit
+[04-05 22:04:31-- TUYA Err][tuya_ipc_stream_storage.c:1509] storage not inited
+func switch 0x2006
+Dbg:Get Server Time now, ret:0
+Dbg:Get Server Time Success: 1712347471 3600(0)
+time zone:1 ->2
+[-][ INFO][mdevinfo_set_timezone][337] set timezone [2][CST-02:00]
+tuya_ipc_dp_report offline ret_utc:0
+ 3872:0x111e020: mbedtls_ssl_handle_message_type() returned -30848 (-0x7880)
+ 7272:0x111e020: mbedtls_ssl_read_record() returned -30848 (-0x7880)
+[04-05 22:04:31-- TUYA Err][mqtt_client.c:1283] __mq_recv err op_ret:-1 recv_len:0
+Dbg:Net status change to:12
+count: 0
+person detect time: 595ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[_led_process] line:342 suspending
+count: 0
+person detect time: 501ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+wakedata[0] len[9]
+heartbeat[▒] len[2]
+tuya sock:25
+TUYA Disable AI Detect...
+[-][ INFO][_get_ip][18] local address 192.168.68.141:50910
+[-][ INFO][_get_ip][24] server address 35.156.44.172:1883
+[-][ INFO][mnet_scrab_start][331] svr ip:35.156.44.172 port:1883
+scrab start ok
+[-][ INFO][init_netface][215] raw fd [27]
+[-][ INFO][init_netface][235] get wlan0 mac a8:41:f4:8a:21:b1
+count: 0
+person detect time: 578ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+[tuya_sendHeartBeatPkt] line:1071 need to send heartbeat sock:25 len 2.
+[-][ INFO][_scrab_thread][291] src:192.168.68.141:50910 --> dst: 35.156.44.172:1883 seq:1404464105 ack:1276758696 win:3650
+[-][ INFO][ZRT_CAM_HOST_Get_Param][361] seq:1404464105 ack:1276758696 win:3650 srcport:50910 dstport:1883
+[-][ INFO][mnet_wifi_suspend_keepalive][365] sock:25 keepAliveDataSize:2 wakeUpDataSize:9 wakeUpData:
+30070001772d92a97c
+[-][ INFO][ZRT_CAM_HOST_Get_Param][361] seq:1404464105 ack:1276758696 win:3650 srcport:50910 dstport:1883
+[-][ INFO][mnet_wifi_suspend_keepalive][411] seq:1404464105 ack:1276758696 win:3650
+[-][ INFO][mnet_wifi_suspend_keepalive][414] dstip:35.156.44.172 dstport:1883 srcport:50910
+[-][ INFO][mnet_wifi_suspend_keepalive][415] payload size:2
+f000
+[-][ INFO][get_local_ip][58] 192.168.68.141
+[-][ INFO][get_local_ip][58] 192.168.68.141
+[-][ INFO][wlc_tcpka_conn_enable][3438] id = 1 en = 1 interval = 30 retry_interval = 4 retry_count = 15
+[-][ INFO][wlc_dhcpc_config_cyw][2341] ip:192.168.68.141 mask:255.255.255.0 gateway:192.168.68.1 dns:213.46.228.196 leasetime:7200
+[-][ INFO][wlc_checkstatus][997] o 00:31:92:28:08:46
+[-][ INFO][ZRT_WIFI_Suspend_Enter][1137] set wake up, check network 1.
+[-][ INFO][wlc_wowl_status][1741] status of wakeup: 0x20016
+[-][ INFO][wlc_wowl_status][1744] Wake-on-Loss-of-Beacons enable
+[-][ INFO][wlc_wowl_status][1748] Wake-on-Net pattern enable
+[-][ INFO][wlc_wowl_status][1750] Wake-on-Deauth enable
+[-][ INFO][wlc_wowl_status][1758] Tcp timeout enabled
+[-][ INFO][wlc_get_host_mac][1031] 00:31:92:28:08:46
+[-][ INFO][get_local_mac][93] a8:41:f4:8a:21:b1
+[-][ INFO][mnet_get_cur_net_info][653]      ip: 192.168.68.141
+[-][ INFO][mnet_get_cur_net_info][654]    mask: 255.255.255.0
+[-][ INFO][mnet_get_cur_net_info][655] gateway: 192.168.68.1
+[-][ INFO][mnet_get_cur_net_info][656]     dns: 213.46.228.196
+WIFI[0] Get IP:192.168.68.141
+[-][ INFO][zrt_wifi_set_wakeup_flag][3050] set wkflag 20016
+[-][ INFO][zrt_wifi_set_suspend_dtim][1127] dtim = 1
+[-][ INFO][zrt_wifi_set_suspend_dtim][1130] beacon interval = 100
+[-][ INFO][zrt_wifi_set_suspend_dtim][1132] suspend dtim period = 1 beacon interval = 100
+[-][ INFO][zrt_wifi_set_suspend_dtim][1162] suspend bcn_li_dtim = 10
+[-][ INFO][zrt_wifi_set_pm_mode][3102] wlc pm 2
+[-][ INFO][zrt_wifi_set_deepsleep][3066] set wlc deepsleep 1
+[-][ INFO][zrt_wifi_set_sleep][3058] set wlc hostsleep 1
+Dbg:Net status change to:6
+[_led_process] line:342 suspending
+count: 0
+person detect time: 540ms
+
+person_detect_switch = 1
+_person_detect_handle 741 w=640 h360
+idx=1, power off SOC!
+[-][ INFO][system][243] echo 49 > /sys/class/gpio/export, ret: 0, target: 127.0.0.1:55301
+[-][ INFO][system][243] echo out > /sys/class/gpio/gpio49/direction, ret: 0, target: 127.0.0.1:53901
+[-][ INFO][system][243] echo 0 > /sys/class/gpio/gpio49/value, ret: 0, target: 127.0.0.1:44023
+[-][ INFO][system][243] echo 1 > /sys/class/gpio/gpio49/value, ret: 0, target: 127.0.0.1:42209
+count: 0
+person detect time: 580ms
+
+person_detect_switch = 1
+_person_detect_h
