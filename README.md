@@ -44,6 +44,12 @@ Putty output is also posted but i removed all mentions of my password and wifi s
 
 
 ![IMG20240405214435](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/345a1de1-40bb-4e51-a02e-4654b57aad76)
-Reading the firmware of the device via a ch341 connected via an soic8 clip to the board. I could not find a working reset so i just shorted the 1.8v line to gnd which actually disabled the mips core from interfering with the firmware reading. After reading i verified the firmware image and now i have a .bin file. I actually did reset the camera to factory before i dumped it so no mentions of my wifi network wuld be included because again i dont want to dox myself. 
+Reading the firmware of the device via a ch341 connected via an soic8 clip to the board. I could not find a working reset so i just shorted the 1.8v line to gnd which actually disabled the mips core from interfering with the firmware reading. After reading i verified the firmware image and now i have a .bin file. I actually did reset the camera to factory before i dumped it so no mentions of my wifi network wuld be included because again i dont want to dox myself so hopefully all credentials are gone fingers crossed... 
+
+I actually used binwalk to extract the firmware and saw a jffs filesystem and it actually has linux kernel 3.10 (at least mine did) in the binary i saw the bootloader arguments and it seems to run linuxrc as the init option and changing it in the binary (by using the inbuilt search option of the neoiprogrammer software) to init=/bin/sh managed to make it so i now can acces the busybox shell without getting interupted by the tuya stack although sadly the poweroff timer is still there and the riscV shuts off the cpu after a few seconds but just move in front of it every few seconds to keep it awake. You can still start the uya stack by executing ./linuxrc in the shell but this will not give you back the shell unles you reboot the device again. 
+Inspecting the rcS script in /etc/init.d/ it seems that the telnet daemon is actually listed as an option that it enables but its commented out sadly. Although i think you can unpack the filesystem and edit the rcS script and then repack it into a binary and flash it on the device via the ch341 clip (someone already did this but without the ch341 soic clip). 
+
+Thats it for now!
+This is a project i am currently active on and you will see some further updates once i know more and maybe upload the custom firmware with telnet enabled so stay tuned!
 
 
