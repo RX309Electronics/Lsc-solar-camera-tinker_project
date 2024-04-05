@@ -12,3 +12,10 @@ This image shows the product box
 ![IMG20240405204356](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/5bce3bdd-f19b-40bc-a4bf-6bda1f9fc7eb)
 ![IMG20240405204350](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/7cc7b516-69b7-4c06-9cfc-cb9599c9783c)
 This is the front and back side
+
+![IMG20240405204411](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/b7fb34d2-a296-431c-88de-989d1d944475)
+![IMG20240405204402](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/f362a0d4-fcc2-4b70-9a15-7c63939ee06b)
+The waterproof sealing and where i found the screw and the buttons.
+
+![IMG20240405204511](https://github.com/RX309Electronics/Lsc-solar-camera-tinker_project/assets/114357631/067385e1-bab2-4ee0-bedf-a6e99f4bacd5)
+This is the product torn down
